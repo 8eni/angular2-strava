@@ -1,3 +1,20 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <h1>Strava api</h1>
+  <p>
+    <img src={{athlete?.profile_medium}} >
+  </p>
+
+  <p>
+    Name: {{ athlete?.firstname }} <br />
+    Biggest Climb: {{ stats?.biggest_climb_elevation_gain }} m
+  </p>
+
+
+
+  <hr />
+  Friends:
+  <ul *ngFor="let friend of friends">
+    <li>{{friend.firstname}}</li>
+  </ul>
+
+</div>
