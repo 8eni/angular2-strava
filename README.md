@@ -4,7 +4,13 @@ This application is a very basic hack of hooking up Angular2 to the Strava API.
 
 ## Set up
 You need to set up a strava api token and 
-- create a `strava.config.ts` file within `src/app` with `export const TOKEN = "70746fdfa3b6323cecdf1319130a565f29db8f39";`, or
+- create a `strava.config.ts` file within `src/app` with 
+
+```
+export const TOKEN = "70746fdfa3b6323cecdf1319130a565f29db8f39";
+```
+
+or
 - update the TOKEN constant in the `strava.service.ts` with your token value
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
